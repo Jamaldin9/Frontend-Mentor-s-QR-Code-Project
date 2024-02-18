@@ -1,0 +1,57 @@
+:root {
+  --ff-sans: "Outfit", sans-serif;
+
+  --fs-p: 15px;
+
+  --fw-light: 400;
+  --fw-bold: 700;
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-lg: hsl(212, 45%, 89%);
+  --clr-gb: hsl(220, 15%, 55%);
+  --clr-db: hsl(218, 44%, 22%);
+}
+html {
+  background-color: var(--clr-lg);
+  font-family: var(--ff-sans);
+}
+.text__block {
+  background: var(--clr-white);
+  border-radius: 5%;
+  max-width: 21rem;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+  box-shadow: 5px 5px 0.5px 0px rgb(187, 189, 192);
+}
+.text {
+  margin-top: 1px;
+}
+.image {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 8%;
+  padding: 15px;
+}
+h2 {
+  color: var(--clr-db);
+  font-weight: var(--fw-bold);
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  max-width: 280px;
+  margin: auto;
+}
+p {
+  color: var(--clr-gb);
+  font-weight: var(--fw-light);
+  margin: auto;
+  padding-bottom: 30px;
+  max-width: 275px;
+  text-align: center;
+}
